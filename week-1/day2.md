@@ -196,7 +196,7 @@ Open instance details and confirm:
 * Wait 1–5 minutes
 * Instance should appear **Online**
 
-> If it doesn’t appear, rebooting the instance can force SSM agent registration (you experienced this).
+> If it doesn’t appear, rebooting the instance can force SSM agent registration.
 
 ## 9. Start a session
 
@@ -265,7 +265,7 @@ env | grep AWS
 * `AWS_SESSION_TOKEN`
 
 ---
-
+![alt text](image.png)
 # Common Failure Points + Fixes (Quick Troubleshooting)
 
 ## A) No public IP on instance
